@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities; 
 
-
-body{
-    background-image: url('https://cdn.pixabay.com/photo/2016/06/16/03/49/befall-the-earth-quote-1460570_960_720.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}

@@ -7,7 +7,7 @@ const ImagesView = () => {
   const imageUrl = `/${imageName}`;
 
   return (
-    <div className="flex justify-center items-center  h-screen">
+    <div className=" max-w-full max-h-full flex justify-center items-center bg-black">
       <img src={imageUrl} alt={imageName} />
     </div>
   );

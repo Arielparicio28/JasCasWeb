@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const Images = () => {
   return (
     <div className="grid gap-4 grid-cols-3 m-1">
-      <Link to="/image/ave.jpg?description=Ave%20verde">
+      <Link to="/image/tota.JPG">
         <img
-          src="ave.jpg"
-          alt="Ave verde"
-          className="w-60 h-60 border-2 border-purple-600"
+          src="tota.JPG"
+          alt="Ilustración de la artista con su hermano y tía "
+          className="w-60 h-60 border-2 border-gray-600"
         />
       </Link>
 
