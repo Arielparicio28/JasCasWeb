@@ -7,7 +7,23 @@ export default {
     './src/**/*.{ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'fondo-pantalla': "url('card.jpg')",
+      }
+    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+      '50%': '50%',
+      '16': '4rem',
+    },
+
+    fontFamily:{
+      font:[ "Dancing Script", "cursive"]
+    }
   },
   plugins: [],
 }
+

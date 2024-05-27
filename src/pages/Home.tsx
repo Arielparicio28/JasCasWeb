@@ -1,11 +1,14 @@
+import Footer from '../components/Footer'
+import HeroImages from '../components/HeroImages'
 
 const Home = () => {
 
 return(
-
     <>
- <h1>Hola Mundo</h1>
-    </>
+<HeroImages/>
+<Footer/>
+
+</>
 )
 }
 

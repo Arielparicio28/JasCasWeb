@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const Images = () => {
   return (
     <div className="grid gap-4 grid-cols-3 m-1">
@@ -11,35 +12,36 @@ const Images = () => {
         />
       </Link>
 
-      <Link to="/image/conejo.jpg">
+      <Link to="/image/shell.png">
       <img
-        src="conejo.jpg"
-        alt="conejo"
-        className="w-60 h-60 border-2 border-purple-600"
-      />
-      </Link>
-      <Link to="/image/gato.jpg">
-         
-      <img
-        src="gato.jpg"
-        alt="gato ojos azules"
+        src="shell.png"
+        alt="Fondo marino"
         className="w-60 h-60 border-2 border-purple-600"
       />
       </Link>
 
-      <Link to="/image/gato2.jpg">
+      <Link to="/image/sea.png">
+         
+      <img
+        src="sea.png"
+        alt="fondo marino"
+        className="w-60 h-60 border-2 border-purple-600"
+      />
+      </Link>
+
+      <Link to="/image/WhiteBird.jpg">
     
       <img
-        src="gato2.jpg"
+        src="WhiteBird.jpg"
         alt="pareja de gatos"
         className="w-60 h-60 border-2 border-purple-600"
       />
       </Link>
 
-      <Link to="/image/leon.jpg">
+      <Link to="/image/piñas.jpg">
       
       <img
-        src="leon.jpg"
+        src="piñas.jpg"
         alt="leon"
         className="w-60 h-60 border-2 border-purple-600"
       />
@@ -87,6 +89,7 @@ const Images = () => {
       />
       </Link>
     </div>
+
   );
 };
 

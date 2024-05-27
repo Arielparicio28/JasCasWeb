@@ -1,20 +1,24 @@
 import { Link } from 'react-router-dom';
 
-
 const NavBar = () => {
   return (
-    <nav className=' flex items-center justify-center w-full text-center bg-gradient-to-r from-violet-500 to-fuchsia-500 '>
-      <ul className='flex justify-center text-xl space-x-4 list-none m-2 opacity-80'>
-        <li className='hover:bg-red-300'>
-          <Link to="/">🏠Home</Link>
+    <nav className='flex items-center justify-center w-full text-center bg-gradient-to-r from-neutral-300 to-neutral-600'>
+      <ul className='flex justify-center text-xl space-x-8 list-none m-2 opacity-80'>
+        <li className='flex items-center transition ease-in-out delay-150 hover:bg-neutral-100 p-2 rounded-lg hover:scale-110 duration-300 font-font'>
+          <Link to="/" className='flex items-center space-x-2'>
+            <img src="hogar.svg" alt="icono_home" className='w-10 h-10'/>
+            <span>Home</span>
+          </Link>
         </li>
-        <li className='hover:bg-red-300'>
-          <Link to="/images">🖼️Images</Link>
+        <li className='flex items-center transition ease-in-out delay-150 hover:bg-neutral-100 p-2 rounded-lg hover:scale-110 duration-300 font-font'>
+          <Link to="/images" className='flex items-center space-x-2'>
+            <img src="imagenes.svg" alt="icono_imagen" className='w-10 h-10'/>
+            <span>Images</span>
+          </Link>
         </li>
       </ul>
     </nav>
   );
 };
 
-export default NavBar
-
+export default NavBar;
