@@ -7,13 +7,13 @@ const NavBar = () => {
         <li className='flex items-center transition ease-in-out delay-150 hover:bg-neutral-100 p-2 rounded-lg hover:scale-110 duration-300 font-font'>
           <Link to="/" className='flex items-center space-x-2'>
             <img src="hogar.svg" alt="icono_home" className='w-10 h-10'/>
-            <span>Home</span>
+            <span className='text-white hover:text-black'>Home</span>
           </Link>
         </li>
         <li className='flex items-center transition ease-in-out delay-150 hover:bg-neutral-100 p-2 rounded-lg hover:scale-110 duration-300 font-font'>
           <Link to="/images" className='flex items-center space-x-2'>
             <img src="imagenes.svg" alt="icono_imagen" className='w-10 h-10'/>
-            <span>Images</span>
+            <span className='text-white hover:text-black'>Images</span>
           </Link>
         </li>
       </ul>
