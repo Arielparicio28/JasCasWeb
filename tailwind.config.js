@@ -11,6 +11,13 @@ export default {
       backgroundImage: {
         'fondo-pantalla': "url('card.jpg')",
       }
+    },   
+    screens: {
+      'md': '769px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      '3xl': '1920px', // ajuste si es necesario
     },
     backgroundSize: {
       'auto': 'auto',
