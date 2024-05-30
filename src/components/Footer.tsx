@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <div className="fixed bottom-0 right-0 w-full md:right-0 md:bottom-0 xl:static p-4 bg-gradient-to-r from-neutral-600 to-neutral-300">
+      <div className="fixed bottom-0 right-0 w-full md:right-0 md:bottom-0 xl:static p-4">
         <ul className="flex flex-row text-white list-none space-x-4 justify-end">
           <li>
             <a href="https://www.instagram.com" target="_blank">
