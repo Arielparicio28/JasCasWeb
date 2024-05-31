@@ -1,12 +1,13 @@
-import './hero.css'
+import './hero.css';
 
-const HeroImages =() => {
+const HeroImages = () => {
   return (
-<div>
-<h1 className='text-right mr-4 mt-4 text-2xl font-font text-white '> Jas Cas</h1> 
-<img src="fondo_recortado.jpg" alt="mujer kuna" className='w-full h-full '/>
-</div>
-  )
+    <div className="relative">
+      <div className="lg:bg-[url('fondo_pantalla.jpg')] bg-[url('imagen_recortada.jpg')] bg-cover bg-center w-full h-screen">
+        <h1 className='text-right mr-4 mt-4 text-3xl font-font text-red-600'>Jas Cas</h1>
+      </div>
+    </div>
+  );
 }
 
-export default HeroImages
+export default HeroImages;

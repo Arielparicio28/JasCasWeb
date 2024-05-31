@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'fondo-pantalla': "url('card.jpg')",
+        'fondo-pantalla': "url('fondo_pantalla.jpg')",
       }
     },   
     screens: {
