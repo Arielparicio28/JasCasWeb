@@ -29,6 +29,16 @@ export default {
 
     fontFamily:{
       font:[ "Dancing Script", "cursive"]
+    },
+    
+    keyframes: {
+      zoomOut: {
+        '0%': { transform: 'scale(1)' },
+        '100%': { transform: 'scale(1.2)' },
+      },
+    },
+    animation: {
+      zoomOut: 'zoomOut 0.5s ease forwards',
     }
   },
   plugins: [],

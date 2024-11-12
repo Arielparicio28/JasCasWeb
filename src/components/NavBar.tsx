@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className='flex items-start justify-start w-full text-center'>
+    <nav className='flex items-start justify-start w-full text-center '>
       <ul className='flex justify-center text-xl space-x-8 list-none m-2 opacity-80'>
         <li className='flex items-center transition ease-in-out delay-150 hover:bg-neutral-300 p-2 rounded-lg hover:scale-110 duration-300 font-font'>
           <Link to="/" className='flex items-center space-x-2'>
