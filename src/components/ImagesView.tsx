@@ -7,8 +7,8 @@ const ImagesView = () => {
   const imageUrl = `/${imageName}`;
 
   return (
-    <div className=" max-w-full max-h-full flex justify-center items-center bg-black">
-      <img src={imageUrl} alt={imageName} />
+    <div className=" max-w-full max-h-full flex justify-center items-center">
+      <img src={imageUrl} alt={imageName} className=" w-screen m-1 p-3"/>
     </div>
   );
 };

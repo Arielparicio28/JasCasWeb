@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 const Images = () => {
   return (
-    <div className="grid gap-4 grid-cols-3 m-1">
+    <div className="grid gap-2 grid-cols-3 m-1 p-3 ">
+
       <Link to="/image/tota.JPG">
         <img
           src="tota.JPG"
           alt="Ilustración de la artista con su hermano y tía "
-          className="w-60 h-60 border-2 border-gray-600"
+          className="w-80 h-80 border-2 border-gray-600 "
         />
       </Link>
 
@@ -16,7 +17,7 @@ const Images = () => {
       <img
         src="shell.png"
         alt="Fondo marino"
-        className="w-60 h-60 border-2 border-purple-600"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
@@ -25,7 +26,7 @@ const Images = () => {
       <img
         src="sea.png"
         alt="fondo marino"
-        className="w-60 h-60 border-2 border-purple-600"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
@@ -34,7 +35,7 @@ const Images = () => {
       <img
         src="WhiteBird.jpg"
         alt="pareja de gatos"
-        className="w-60 h-60 border-2 border-purple-600"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
@@ -42,52 +43,161 @@ const Images = () => {
       
       <img
         src="piñas.jpg"
-        alt="leon"
-        className="w-60 h-60 border-2 border-purple-600"
+        alt="piñas"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
-      <Link to="/image/mono.jpg">
+      <Link to="/image/african_woman.jpg">
       <img
-        src="mono.jpg"
-        alt="mono"
-        className="w-60 h-60 border-2 border-purple-600"
+        src="african_woman.jpg"
+        alt="african woman"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
-      <Link to="/image/pareja de leones.jpg">
+      <Link to="/image/Basic_Survival.jpg">
      
       <img
-        src="pareja de leones.jpg"
-        alt="pareja de leones"
-        className="w-60 h-60 border-2 border-purple-600"
+        src="Basic_Survival.jpg"
+        alt="Basic Survival"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
 
-      <Link to="/image/perro.jpg">
+      <Link to="/image/Boon_page.jpg">
      
       <img
-        src="perro.jpg"
-        alt="perro"
-        className="w-60 h-60 border-2 border-purple-600"
+        src="Boon_page.jpg"
+        alt="figura de cuento"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
-      <Link to="/image/pez.jpg">
+
+      <Link to="/image/Boon_page2.jpg">
   
       <img
-        src="pez.jpg"
-        alt="pez"
-        className="w-60 h-60 border-2 border-purple-600"
+        src="Boon_page2.jpg"
+        alt="figura de cuento"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
-      <Link to="/image/tortuga.jpg">
+
+      <Link to="/image/cantante.jpg">
 
       <img
-        src="tortuga.jpg"
-        alt="tortuga"
-        className="w-60 h-60 border-2 border-purple-600"
+        src="cantante.jpg"
+        alt="cantante"
+        className="w-80 h-80 border-2 border-purple-600"
       />
       </Link>
+
+
+      <Link to="/image/cantante_1.jpg">
+
+<img
+  src="cantante_1.jpg"
+  alt="cantante"
+  className="w-80 h-80 border-2 border-purple-600"
+/>
+</Link>
+
+
+
+<Link to="/image/cantante_2.jpg">
+
+<img
+  src="cantante_2.jpg"
+  alt="cantante"
+  className="w-80 h-80 border-2 border-purple-600"
+/>
+</Link>
+
+
+
+<Link to="/image/card.jpg">
+
+<img
+  src="card.jpg"
+  alt="card"
+  className="w-80 h-80 border-2 border-purple-600"
+/>
+</Link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
   );
