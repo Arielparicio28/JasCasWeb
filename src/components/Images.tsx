@@ -120,7 +120,7 @@ const Images = () => {
 <img
   src="card.jpg"
   alt="card"
-  className="w-80 h-80 border-2 border-purple-600"
+  className="w-80 h-80 border-2 border-purple-600 hover:animate-zoomOut"
 />
 </Link>
 
