@@ -13,10 +13,10 @@ const Images = () => {
         />
       </Link>
 
-      <Link to="/image/shell.png">
+      <Link to="/image/ILUS_00024.jpg">
       <img
-        src="shell.png"
-        alt="Fondo marino"
+        src="ILUS_00024.jpg"
+        alt="Ilusión "
         className="w-60 h-60 border-2 border-purple-600 hover:animate-zoomOut  lg:w-90 lg:h-60"
       />
       </Link>
