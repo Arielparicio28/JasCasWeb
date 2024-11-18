@@ -36,10 +36,26 @@ export default {
         '0%': { transform: 'scale(1)' },
         '100%': { transform: 'scale(1.2)' },
       },
+
+      typewriter: {
+        from: { width: '0' },
+        to: { width: '100%' },
+      },
+      blinkingCursor: {
+        '0%, 100%': { borderRightColor: 'rgba(255,255,255,.75)' },
+        '50%': { borderRightColor: 'transparent' },
+      },
+      hideCursor: {
+        to: { borderRightColor: 'transparent' },
+      },
     },
     animation: {
       zoomOut: 'zoomOut 0.5s ease forwards',
+      typewriter: 'typewriter 5s steps(50) 1s 1 normal both',
+      blinkingCursor: 'blinkingCursor 500ms steps(50) infinite normal',
+      hideCursor: 'hideCursor 0.5s forwards',
     }
+
   },
   plugins: [],
 }

@@ -1,10 +1,10 @@
  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Images from './components/Images'; 
+import Images from './pages/Images'; 
 import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import ImagesView from './components/ImagesView';
-import About from './components/About';
-import Children from './components/Children';
+import About from './pages/About';
+import Children from './pages/Children';
 
 
 const App = () => {

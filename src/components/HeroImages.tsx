@@ -1,5 +1,3 @@
-import './hero.css';
-
 const HeroImages = () => {
   return (
     <div className="relative">
