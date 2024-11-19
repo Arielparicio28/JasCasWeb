@@ -126,15 +126,45 @@ const Images = () => {
 
 
 
+<Link to="/image/IMG_4359.JPG">
+
+<img
+  src="IMG_4359.JPG"
+  alt="card"
+  className="w-60 h-60 border-2 border-purple-600 hover:animate-zoomOut  lg:w-90 lg:h-60"
+/>
+</Link>
 
 
 
+<Link to="/image/IMG_4361.JPG">
+
+<img
+  src="IMG_4361.JPG"
+  alt="card"
+  className="w-60 h-60 border-2 border-purple-600 hover:animate-zoomOut  lg:w-90 lg:h-60"
+/>
+</Link>
 
 
+<Link to="/image/indigena.jpeg">
+
+<img
+  src="indigena.jpeg"
+  alt="card"
+  className="w-60 h-60 border-2 border-purple-600 hover:animate-zoomOut  lg:w-90 lg:h-60"
+/>
+</Link>
 
 
+<Link to="/image/kuna.jpg">
 
-
+<img
+  src="kuna.jpg"
+  alt="card"
+  className="w-60 h-60 border-2 border-purple-600 hover:animate-zoomOut  lg:w-90 lg:h-60"
+/>
+</Link>
 
 
 
