@@ -118,7 +118,13 @@ return(
       />
     </Link>
 
-
+    <Link to="/image/Ginger.jpg">
+        <img
+          src="Ginger.jpg"
+          alt="Ilustración de la artista con su hermano y tía "
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
 
 
