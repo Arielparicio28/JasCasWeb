@@ -9,7 +9,7 @@ return(
       <img
         src="drawing_03.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -17,7 +17,7 @@ return(
       <img
         src="DRAWING_05.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -25,7 +25,7 @@ return(
       <img
         src="DRAWING_07.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -33,7 +33,7 @@ return(
       <img
         src="DRAWING_11.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -42,7 +42,7 @@ return(
       <img
         src="ILUS_00024.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -50,7 +50,7 @@ return(
       <img
         src="ILUS_00028.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -58,7 +58,7 @@ return(
       <img
         src="ILUS_00029.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -66,7 +66,7 @@ return(
       <img
         src="IMG_1885.JPG"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -74,7 +74,7 @@ return(
       <img
         src="IMG_1888.JPG"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -82,7 +82,7 @@ return(
       <img
         src="IMG_4316.JPG"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -90,7 +90,7 @@ return(
       <img
         src="Island_hammock.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -98,7 +98,7 @@ return(
       <img
         src="Island_shower.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -106,7 +106,7 @@ return(
       <img
         src="Mary_Lennox.jpg"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
@@ -114,7 +114,7 @@ return(
       <img
         src="panama.png"
         alt="Ilustración de la artista para niños"
-        className="w-60 h-60 border-2 border-gray-600 hover:animate-zoomOut lg:w-90 lg:h-60"
+        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
       />
     </Link>
 
