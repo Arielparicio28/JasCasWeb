@@ -1,19 +1,15 @@
 import { Link } from "react-router-dom";
 
-
 const Images = () => {
   return (
     <div className="grid gap-2 grid-cols-3 m-3 p-5  ">
-
-
-<Link to="/image/fondo_pantalla.jpg">
+      <Link to="/image/fondo_pantalla.jpg">
         <img
           src="fondo_pantalla.jpg"
           alt="Ilustración de la artista con su hermano y tía "
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
-
 
       <Link to="/image/habanera.JPG">
         <img
@@ -31,9 +27,6 @@ const Images = () => {
         />
       </Link>
 
-
-
-
       <Link to="/image/tota.JPG">
         <img
           src="tota.JPG"
@@ -42,175 +35,141 @@ const Images = () => {
         />
       </Link>
 
-
-
-
       <Link to="/image/african_woman.jpg">
-      <img
-        src="african_woman.jpg"
-        alt="african woman"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+        <img
+          src="african_woman.jpg"
+          alt="african woman"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
       </Link>
 
       <Link to="/image/Basic_Survival.jpg">
-     
-      <img
-        src="Basic_Survival.jpg"
-        alt="Basic Survival"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+        <img
+          src="Basic_Survival.jpg"
+          alt="Basic Survival"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
       </Link>
 
       <Link to="/image/Boon_page.jpg">
-     
-      <img
-        src="Boon_page.jpg"
-        alt="figura de cuento"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+        <img
+          src="Boon_page.jpg"
+          alt="figura de cuento"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
       </Link>
 
       <Link to="/image/Boon_page2.jpg">
-  
-      <img
-        src="Boon_page2.jpg"
-        alt="figura de cuento"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+        <img
+          src="Boon_page2.jpg"
+          alt="figura de cuento"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
       </Link>
 
       <Link to="/image/cantante.jpg">
-
-      <img
-        src="cantante.jpg"
-        alt="cantante"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+        <img
+          src="cantante.jpg"
+          alt="cantante"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
       </Link>
 
-
       <Link to="/image/cantante_1.jpg">
+        <img
+          src="cantante_1.jpg"
+          alt="cantante"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-<img
-  src="cantante_1.jpg"
-  alt="cantante"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
+      <Link to="/image/cantante_2.jpg">
+        <img
+          src="cantante_2.jpg"
+          alt="cantante"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/card.jpg">
+        <img
+          src="card.jpg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/IMG_4359.JPG">
+        <img
+          src="IMG_4359.JPG"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
-<Link to="/image/cantante_2.jpg">
+      <Link to="/image/IMG_4361.JPG">
+        <img
+          src="IMG_4361.JPG"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-<img
-  src="cantante_2.jpg"
-  alt="cantante"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-/>
-</Link>
+      <Link to="/image/indigena.jpeg">
+        <img
+          src="indigena.jpeg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/kuna.jpg">
+        <img
+          src="kuna.jpg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/card_2.jpg">
+        <img
+          src="card_2.jpg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-<Link to="/image/card.jpg">
+      <Link to="/image/Elephant_1.jpg">
+        <img
+          src="Elephant_1.jpg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-<img
-  src="card.jpg"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
+      <Link to="/image/Eye.png">
+        <img
+          src="Eye.png"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/Eyes.png">
+        <img
+          src="Eyes.png"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-
-<Link to="/image/IMG_4359.JPG">
-
-<img
-  src="IMG_4359.JPG"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-/>
-</Link>
-
-
-
-<Link to="/image/IMG_4361.JPG">
-
-<img
-  src="IMG_4361.JPG"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-
-<Link to="/image/indigena.jpeg">
-
-<img
-  src="indigena.jpeg"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-
-<Link to="/image/kuna.jpg">
-
-<img
-  src="kuna.jpg"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-
-<Link to="/image/card_2.jpg">
-
-<img
-  src="card_2.jpg"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-<Link to="/image/Elephant_1.jpg">
-
-<img
-  src="Elephant_1.jpg"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-<Link to="/image/Eye.png">
-
-<img
-  src="Eye.png"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-<Link to="/image/Eyes.png">
-
-<img
-  src="Eyes.png"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-
-<Link to="/image/fashion.png">
-
-<img
-  src="fashion.png"
-  alt="card"
-  className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-/>
-</Link>
-
-
+      <Link to="/image/fashion.png">
+        <img
+          src="fashion.png"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
       <Link to="/image/habanera_2.JPG">
         <img
@@ -218,7 +177,7 @@ const Images = () => {
           alt="Ilustración de la artista con su hermano y tía "
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
-      </Link>      
+      </Link>
 
       <Link to="/image/habanera_3.JPG">
         <img
@@ -227,7 +186,6 @@ const Images = () => {
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
-
 
       <Link to="/image/IMG_4312.JPG">
         <img
@@ -285,176 +243,103 @@ const Images = () => {
         />
       </Link>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<Link to="/image/WhiteBird.jpg">
-    
-    <img
-      src="WhiteBird.jpg"
-      alt="pareja de gatos"
-      className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-    />
-    </Link>
-
-
-<Link to="/image/sea.png">
-         
-         <img
-           src="sea.png"
-           alt="fondo marino"
-           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-         />
-         </Link>
-
-
-         <Link to="/image/piñas.jpg">
-      
-      <img
-        src="piñas.jpg"
-        alt="piñas"
-        className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-      />
+      <Link to="/image/mujer_slider_0.jpg">
+        <img
+          src="mujer_slider_0.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
       </Link>
 
+      <Link to="/image/mujer_slider_1.jpg">
+        <img
+          src="mujer_slider_1.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_2.jpg">
+        <img
+          src="mujer_slider_2.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_3.jpg">
+        <img
+          src="mujer_slider_3.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_4.jpg">
+        <img
+          src="mujer_slider_4.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_5.jpg">
+        <img
+          src="mujer_slider_5.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_6.jpg">
+        <img
+          src="mujer_slider_6.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_7.jpg">
+        <img
+          src="mujer_slider_7.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/mujer_slider_8.jpg">
+        <img
+          src="mujer_slider_8.jpg"
+          alt="Indigena"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/WhiteBird.jpg">
+        <img
+          src="WhiteBird.jpg"
+          alt="pareja de gatos"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
+      <Link to="/image/sea.png">
+        <img
+          src="sea.png"
+          alt="fondo marino"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <Link to="/image/piñas.jpg">
+        <img
+          src="piñas.jpg"
+          alt="piñas"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
     </div>
-
   );
 };
 
 export default Images;
- 
-
-
