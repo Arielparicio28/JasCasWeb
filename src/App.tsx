@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import ImagesView from './components/ImagesView';
 import About from './pages/About';
 import Children from './pages/Children';
+import Slider3D from './components/Slider3D';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/image/:imageName" element={<ImagesView />} />
         <Route path="/children" element={<Children />} />
         <Route path="/about" element={<About />} />
+        <Route path="/slider" element={<Slider3D />} />
       </Routes>
     </Router>
     </>
