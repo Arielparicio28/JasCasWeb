@@ -44,6 +44,30 @@ const Images = () => {
         />
       </Link>
 
+      <Link to="/image/tota1.jpg">
+        <img
+          src="tota1.jpg"
+          alt="Ilustración de la artista con su hermano y tía "
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/african.jpg">
+        <img
+          src="african.jpg"
+          alt="african woman"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/basic.jpg">
+        <img
+          src="basic.jpg"
+          alt="Basic Survival"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
       <Link to="/image/habanera.jpg">
         <img
           src="habanera.jpg"
@@ -69,29 +93,7 @@ const Images = () => {
         />
       </Link>
 
-      <Link to="/image/tota1.jpg">
-        <img
-          src="tota1.jpg"
-          alt="Ilustración de la artista con su hermano y tía "
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/african.jpg">
-        <img
-          src="african.jpg"
-          alt="african woman"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/basic.jpg">
-        <img
-          src="basic.jpg"
-          alt="Basic Survival"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
+  
 
       <Link to="/image/boon.jpg">
         <img

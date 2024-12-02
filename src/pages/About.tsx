@@ -5,7 +5,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start p-3 lg:p-5 space-y-5 lg:space-y-0 lg:space-x-5">
         {/* Imagen */}
         <img
-          src="artista_3.JPG"
+          src="artista_3.jpg"
           alt="Ilustración de la artista con su hermano y tía"
           className="w-full sm:w-3/4 lg:w-1/3 h-auto"
         />
