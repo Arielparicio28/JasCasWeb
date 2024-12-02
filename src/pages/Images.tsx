@@ -3,65 +3,107 @@ import { Link } from "react-router-dom";
 const Images = () => {
   return (
     <div className="grid gap-2 grid-cols-3 m-3 p-5  ">
-      <Link to="/image/fondo_pantalla.jpg">
+      <Link to="/image/pantalla.jpg">
         <img
-          src="fondo_pantalla.jpg"
+          src="pantalla.jpg"
           alt="Ilustración de la artista con su hermano y tía "
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/habanera.JPG">
+      <Link to="/image/pantalla1.jpg">
         <img
-          src="habanera.JPG"
-          alt="Rostro de cubana"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/leopard.jpg">
-        <img
-          src="leopard.jpg"
+          src="pantalla1.jpg"
           alt="Leopardo azul"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/tota.JPG">
+      <Link to="/image/Mary_Lennox.jpg">
         <img
-          src="tota.JPG"
+          src="Mary_Lennox.jpg"
+          alt="Mary lennox"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/kuna.jpg">
+        <img
+          src="kuna.jpg"
+          alt="card"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      
+      <Link to="/image/indias.jpg">
+        <img
+          src="indias.jpg"
+          alt="Indias"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/habanera.jpg">
+        <img
+          src="habanera.jpg"
+          alt="Rostro de cubana"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/habanera_2.JPG">
+        <img
+          src="habanera_2.JPG"
           alt="Ilustración de la artista con su hermano y tía "
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/african_woman.jpg">
+      
+      <Link to="/image/habanera_3.JPG">
         <img
-          src="african_woman.jpg"
+          src="habanera_3.JPG"
+          alt="Ilustración de la artista con su hermano y tía "
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/tota1.jpg">
+        <img
+          src="tota1.jpg"
+          alt="Ilustración de la artista con su hermano y tía "
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/african.jpg">
+        <img
+          src="african.jpg"
           alt="african woman"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/Basic_Survival.jpg">
+      <Link to="/image/basic.jpg">
         <img
-          src="Basic_Survival.jpg"
+          src="basic.jpg"
           alt="Basic Survival"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/Boon_page.jpg">
+      <Link to="/image/boon.jpg">
         <img
-          src="Boon_page.jpg"
+          src="boon.jpg"
           alt="figura de cuento"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/Boon_page2.jpg">
+      <Link to="/image/boon2.jpg">
         <img
-          src="Boon_page2.jpg"
+          src="boon2.jpg"
           alt="figura de cuento"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
@@ -99,147 +141,52 @@ const Images = () => {
         />
       </Link>
 
-      <Link to="/image/IMG_4359.JPG">
+      <Link to="/image/ave.jpg">
         <img
-          src="IMG_4359.JPG"
-          alt="card"
+          src="ave.jpg"
+          alt="Ave panameña"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/IMG_4361.JPG">
+      <Link to="/image/ave2.jpg">
         <img
-          src="IMG_4361.JPG"
-          alt="card"
+          src="ave2.jpg"
+          alt="Ave a colores"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/indigena.jpeg">
+      <Link to="/image/india.jpg">
         <img
-          src="indigena.jpeg"
-          alt="card"
+          src="india.jpg"
+          alt="Mujer indigena"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/kuna.jpg">
+      <Link to="/image/india1.jpg">
         <img
-          src="kuna.jpg"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/card_2.jpg">
-        <img
-          src="card_2.jpg"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/Elephant_1.jpg">
-        <img
-          src="Elephant_1.jpg"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/Eye.png">
-        <img
-          src="Eye.png"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/Eyes.png">
-        <img
-          src="Eyes.png"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/fashion.png">
-        <img
-          src="fashion.png"
-          alt="card"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/habanera_2.JPG">
-        <img
-          src="habanera_2.JPG"
-          alt="Ilustración de la artista con su hermano y tía "
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/habanera_3.JPG">
-        <img
-          src="habanera_3.JPG"
-          alt="Ilustración de la artista con su hermano y tía "
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/IMG_4312.JPG">
-        <img
-          src="IMG_4312.JPG"
-          alt="Rostro de cubana"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/IMG_5180.JPG">
-        <img
-          src="IMG_5180.JPG"
-          alt="Leopardo azul"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/indigena_1.jpg">
-        <img
-          src="indigena_1.jpg"
+          src="india1.jpg"
           alt="Indigena kuna panameña"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/latino_america.jpg">
+      
+      <Link to="/image/india2.jpg">
         <img
-          src="latino_america.jpg"
-          alt="Tribus indigenas"
+          src="india2.jpg"
+          alt="Indigena kuna panameña"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/amber.jpg">
+      <Link to="/image/mujercosiendo.png">
         <img
-          src="amber.jpg"
-          alt="Honey"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/Mary_Lennox.jpg">
-        <img
-          src="Mary_Lennox.jpg"
-          alt="Mary lennox"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
-        />
-      </Link>
-
-      <Link to="/image/mujeralga.jpg">
-        <img
-          src="mujeralga.jpg"
-          alt="Mujer Alga"
-          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+          src="mujercosiendo.png"
+          alt="Mujer Kuna cosiendo"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
@@ -315,21 +262,110 @@ const Images = () => {
         />
       </Link>
 
-      <Link to="/image/WhiteBird.jpg">
+
+      <Link to="/image/elefante.jpg">
         <img
-          src="WhiteBird.jpg"
-          alt="pareja de gatos"
+          src="elefante.jpg"
+          alt="card"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
 
-      <Link to="/image/sea.png">
+      <Link to="/image/ojo.png">
         <img
-          src="sea.png"
-          alt="fondo marino"
+          src="ojo.png"
+          alt="ojo"
           className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
         />
       </Link>
+
+      <Link to="/image/ojos.png">
+        <img
+          src="ojos.png"
+          alt="ojos"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/fashion.png">
+        <img
+          src="fashion.png"
+          alt="Mujer fashion"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/rubia.jpg">
+        <img
+          src="rubia.jpg"
+          alt="Rostro de mujer rubia con lazo rosado"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/leopardoGrande.jpg">
+        <img
+          src="leopardoGrande.jpg"
+          alt="Leopardo azulado"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/leopardo.jpg">
+        <img
+          src="leopardo.jpg"
+          alt="Leopardo azul"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+      <Link to="/image/amber.jpg">
+        <img
+          src="amber.jpg"
+          alt="Honey"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+
+ 
+
+      <Link to="/image/mujeralga.jpg">
+        <img
+          src="mujeralga.jpg"
+          alt="Mujer Alga"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut lg:w-60 lg:h-60"
+        />
+      </Link>
+ 
+   
+    
+    
+      <Link to="/image/panama.png">
+        <img
+          src="panama.png"
+          alt="Caricatura con bandera de panama"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+ 
+      <Link to="/image/whitebird.jpg">
+        <img
+          src="whitebird.jpg"
+          alt="Lienzo rojo con aves blancas"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+
+
+      <Link to="/image/mariposa.jpg">
+        <img
+          src="mariposa.jpg"
+          alt="piñas"
+          className="w-60 h-40 border-2 border-zinc-100 hover:animate-zoomOut  lg:w-60 lg:h-60"
+        />
+      </Link>
+     
 
       <Link to="/image/piñas.jpg">
         <img

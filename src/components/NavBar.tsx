@@ -47,12 +47,14 @@ const NavBar = () => {
             <span className="text-black">Brushwork</span>
           </Link>
         </li>
+      {/* Childrens ilustrattion
         <li className="flex items-center transition ease-in-out delay-150 hover:bg-neutral-300 p-2 rounded-lg hover:scale-110 duration-300 font-font">
           <Link to="/children" className="flex items-center space-x-2">
             <img src="/tabla.gif" alt="imagenes_button" className="w-10 h-10 lg:w-16 lg:h-16" />
             <span className="text-black">Children Illustration</span>
           </Link>
         </li>
+        */}
         <li className="flex items-center transition ease-in-out delay-150 hover:bg-neutral-300 p-2 rounded-lg hover:scale-110 duration-300 font-font">
           <Link to="/about" className="flex items-center space-x-2">
             <img src="/about.gif" alt="imagenes_button" className="w-10 h-10 lg:w-16 lg:h-16" />
